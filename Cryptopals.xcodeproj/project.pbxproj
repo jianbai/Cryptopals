@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D2DE8DC21AFFE4EB00C64A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE8DC11AFFE4EB00C64A57 /* AppDelegate.swift */; };
-		D2DE8DC41AFFE4EB00C64A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE8DC31AFFE4EB00C64A57 /* ViewController.swift */; };
-		D2DE8DC71AFFE4EB00C64A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DE8DC51AFFE4EB00C64A57 /* Main.storyboard */; };
-		D2DE8DC91AFFE4EB00C64A57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DE8DC81AFFE4EB00C64A57 /* Images.xcassets */; };
-		D2DE8DCC1AFFE4EB00C64A57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DE8DCA1AFFE4EB00C64A57 /* LaunchScreen.xib */; };
-		D2DE8DD81AFFE4EB00C64A57 /* CryptopalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE8DD71AFFE4EB00C64A57 /* CryptopalsTests.swift */; };
+		D2DE8DE21AFFE50500C64A57 /* Set1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE8DE11AFFE50500C64A57 /* Set1Tests.swift */; };
+		D2DE8DE41AFFE52700C64A57 /* Set1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE8DE31AFFE52700C64A57 /* Set1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +26,10 @@
 		D2DE8DBC1AFFE4EB00C64A57 /* Cryptopals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptopals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DE8DC01AFFE4EB00C64A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2DE8DC11AFFE4EB00C64A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2DE8DC31AFFE4EB00C64A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2DE8DC61AFFE4EB00C64A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2DE8DC81AFFE4EB00C64A57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D2DE8DCB1AFFE4EB00C64A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D2DE8DD11AFFE4EB00C64A57 /* CryptopalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptopalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DE8DD61AFFE4EB00C64A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2DE8DD71AFFE4EB00C64A57 /* CryptopalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptopalsTests.swift; sourceTree = "<group>"; };
+		D2DE8DE11AFFE50500C64A57 /* Set1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set1Tests.swift; sourceTree = "<group>"; };
+		D2DE8DE31AFFE52700C64A57 /* Set1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +71,7 @@
 		D2DE8DBE1AFFE4EB00C64A57 /* Cryptopals */ = {
 			isa = PBXGroup;
 			children = (
-				D2DE8DC11AFFE4EB00C64A57 /* AppDelegate.swift */,
-				D2DE8DC31AFFE4EB00C64A57 /* ViewController.swift */,
-				D2DE8DC51AFFE4EB00C64A57 /* Main.storyboard */,
-				D2DE8DC81AFFE4EB00C64A57 /* Images.xcassets */,
-				D2DE8DCA1AFFE4EB00C64A57 /* LaunchScreen.xib */,
+				D2DE8DE31AFFE52700C64A57 /* Set1.swift */,
 				D2DE8DBF1AFFE4EB00C64A57 /* Supporting Files */,
 			);
 			path = Cryptopals;
@@ -90,6 +80,7 @@
 		D2DE8DBF1AFFE4EB00C64A57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2DE8DC11AFFE4EB00C64A57 /* AppDelegate.swift */,
 				D2DE8DC01AFFE4EB00C64A57 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -98,7 +89,7 @@
 		D2DE8DD41AFFE4EB00C64A57 /* CryptopalsTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2DE8DD71AFFE4EB00C64A57 /* CryptopalsTests.swift */,
+				D2DE8DE11AFFE50500C64A57 /* Set1Tests.swift */,
 				D2DE8DD51AFFE4EB00C64A57 /* Supporting Files */,
 			);
 			path = CryptopalsTests;
@@ -192,9 +183,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DE8DC71AFFE4EB00C64A57 /* Main.storyboard in Resources */,
-				D2DE8DCC1AFFE4EB00C64A57 /* LaunchScreen.xib in Resources */,
-				D2DE8DC91AFFE4EB00C64A57 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DE8DC41AFFE4EB00C64A57 /* ViewController.swift in Sources */,
+				D2DE8DE41AFFE52700C64A57 /* Set1.swift in Sources */,
 				D2DE8DC21AFFE4EB00C64A57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DE8DD81AFFE4EB00C64A57 /* CryptopalsTests.swift in Sources */,
+				D2DE8DE21AFFE50500C64A57 /* Set1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +222,6 @@
 			targetProxy = D2DE8DD21AFFE4EB00C64A57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D2DE8DC51AFFE4EB00C64A57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2DE8DC61AFFE4EB00C64A57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D2DE8DCA1AFFE4EB00C64A57 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2DE8DCB1AFFE4EB00C64A57 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D2DE8DD91AFFE4EB00C64A57 /* Debug */ = {
